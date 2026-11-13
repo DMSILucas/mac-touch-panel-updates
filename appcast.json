@@ -1,0 +1,7 @@
+{
+  "version": "1.3.1",
+  "downloadURL": "https://github.com/DMSILucas/mac-touch-panel-updates/releases/download/v1.3.1/MacTouchPanel-1.3.1.dmg",
+  "releaseNotes": "First GitHub-hosted Mac Touch Panel release. Includes the working standalone application, in-app update checking, backup and restore, YouTube Music compatibility, system volume actions, and the v1.3.1 app icon fix.",
+  "publishedAt": "2026-11-13T18:26:34Z",
+  "minimumSupportedVersion": "1.1.0"
+}
