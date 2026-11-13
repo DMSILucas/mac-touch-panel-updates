@@ -1,35 +1,31 @@
 # Mac Touch Panel — Updates
 
-This public repository hosts release downloads and the update feed for **Mac Touch Panel**, a macOS touchscreen shortcut/control panel.
+This public repository hosts the GitHub Releases and update feed for **Mac Touch Panel**, a macOS touchscreen shortcut/control panel.
 
-## Update feed
+## Live update feed
 
-The installed app reads the file `appcast.json` on the `main` branch. The public URL will be:
+**Status: Active** — latest published release: **v1.3.1**.
 
-`https://raw.githubusercontent.com/DMSILucas/mac-touch-panel-updates/main/appcast.json`
+Feed URL for **Mac Touch Panel → Updater Settings…**:
 
-The feed is published **only after** a real, downloadable GitHub Release asset is available, so users are never directed to a missing installer.
-
-## Release workflow
-
-1. Build and test Mac Touch Panel on macOS and create the DMG using `Build Mac App.command`.
-2. Create a GitHub Release named `vX.Y.Z` and attach the matching `MacTouchPanel-X.Y.Z.dmg`.
-3. Publish the release.
-4. Update `appcast.json` with the version, release notes, and **actual HTTPS download URL** of the DMG.
-5. Open Mac Touch Panel → **Check for Updates…** to verify it.
-
-Expected feed format:
-
-```json
-{
-  "version": "1.3.1",
-  "downloadURL": "https://github.com/DMSILucas/mac-touch-panel-updates/releases/download/v1.3.1/MacTouchPanel-1.3.1.dmg",
-  "releaseNotes": "Release notes go here."
-}
+```text
+https://raw.githubusercontent.com/DMSILucas/mac-touch-panel-updates/main/appcast.json
 ```
 
-**Note:** The JSON above is an example. It is not an active release feed. The URL only works once that exact release asset is published.
+Published releases: https://github.com/DMSILucas/mac-touch-panel-updates/releases
+
+The installed app reads the JSON feed, compares the available version with the installed version, displays release notes when an update is newer, and opens its DMG download URL in the default browser. It does **not** install updates without user action.
+
+## How to publish future releases
+
+1. Build and test the new version on macOS with `Build Mac App.command`.
+2. Create a GitHub Release tagged `vX.Y.Z` and attach the matching `MacTouchPanel-X.Y.Z.dmg`.
+3. Publish the release and confirm its asset appears on GitHub.
+4. Update `appcast.json` using the real release asset's `browser_download_url`, version, notes, and publication date.
+5. Test **Check for Updates…** on the installed app.
+
+Only publish a feed entry after the matching DMG is uploaded successfully. Keep this repository public so the app can read its feed without GitHub authentication.
 
 ## Privacy and distribution
 
-Do not commit personal `configuration.json` backups, access tokens, passwords, private documents, or YouTube sign-in data. Public GitHub Releases are accessible to everyone. Locally signed builds are not Apple-notarized and may show macOS security prompts when installed on another Mac.
+Do not commit personal `configuration.json` backups, credentials, private documents, or browser sign-in data. Public GitHub Releases can be downloaded by anyone. Locally signed builds are not Apple-notarized and may show macOS security prompts on other Macs.
