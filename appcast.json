@@ -3,5 +3,7 @@
   "downloadURL": "https://github.com/DMSILucas/mac-touch-panel-updates/releases/download/v1.4.0/MacTouchPanel-1.4.0.dmg",
   "releaseNotes": "Mac Touch Panel v1.4.0 adds automatic website favicons to shortcut buttons, with per-button control, local icon caching, manual icon refresh, and fallback to assigned icons. Existing browser playback, YouTube Music compatibility, volume controls, themes, backups, and GitHub update checking are preserved.",
   "publishedAt": "2026-11-18T14:24:13Z",
-  "minimumSupportedVersion": "1.1.0"
+  "minimumSupportedVersion": "1.1.0",
+  "sha256": "5d4d4e66d142f92761b9b05c9266551d9a50bb76d969290ed3c0b333f77d4797",
+  "fileSize": 1764885
 }
