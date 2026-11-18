@@ -4,7 +4,7 @@ This public repository hosts the GitHub Releases and update feed for **Mac Touch
 
 ## Live update feed
 
-**Status: Active** — latest published release: **v1.3.1**.
+**Status: Active** — latest published release: **v1.4.0**.
 
 Feed URL for **Mac Touch Panel → Updater Settings…**:
 
