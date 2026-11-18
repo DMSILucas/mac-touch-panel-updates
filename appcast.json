@@ -1,9 +1,9 @@
 {
-  "version": "1.5.0",
-  "downloadURL": "https://github.com/DMSILucas/mac-touch-panel-updates/releases/download/v1.5.0/MacTouchPanel-1.5.0.dmg",
-  "releaseNotes": "Mac Touch Panel v1.5.0 introduces a guided in-app installer downloader with download progress and cancellation, SHA-256 integrity verification, and Open Installer / Reveal in Finder actions. Adds Download Published Installer for recovery and testing. Existing website favicons, shortcuts, browser and YouTube Music compatibility remain supported.",
-  "publishedAt": "2026-11-18T14:56:06Z",
+  "version": "1.6.0",
+  "downloadURL": "https://github.com/DMSILucas/mac-touch-panel-updates/releases/download/v1.6.0/MacTouchPanel-1.6.0.dmg",
+  "releaseNotes": "Mac Touch Panel v1.6.0 adds Multi-Action Buttons supporting up to 16 ordered steps per button, including website opening, app launching, system volume control, page navigation, browser visibility, and configurable waits. Steps can be reordered or cancelled, with optional stop-on-error behavior. Existing layouts, backups, website favicons, YouTube Music playback, and guided updates remain compatible.",
+  "publishedAt": "2026-11-18T16:15:26Z",
   "minimumSupportedVersion": "1.1.0",
-  "sha256": "e2f382367f6362a749f24bdfa61813455391602cc9e459dbf9fa47d5df0a765e",
-  "fileSize": 1826061
+  "sha256": "3ac8293e06dac4b0e3b605a733001e1304e1666f292f0b1f091f16736463dc88",
+  "fileSize": 1963681
 }
