@@ -1,7 +1,7 @@
 {
-  "version": "1.3.1",
-  "downloadURL": "https://github.com/DMSILucas/mac-touch-panel-updates/releases/download/v1.3.1/MacTouchPanel-1.3.1.dmg",
-  "releaseNotes": "First GitHub-hosted Mac Touch Panel release. Includes the working standalone application, in-app update checking, backup and restore, YouTube Music compatibility, system volume actions, and the v1.3.1 app icon fix.",
-  "publishedAt": "2026-11-13T18:26:34Z",
+  "version": "1.4.0",
+  "downloadURL": "https://github.com/DMSILucas/mac-touch-panel-updates/releases/download/v1.4.0/MacTouchPanel-1.4.0.dmg",
+  "releaseNotes": "Mac Touch Panel v1.4.0 adds automatic website favicons to shortcut buttons, with per-button control, local icon caching, manual icon refresh, and fallback to assigned icons. Existing browser playback, YouTube Music compatibility, volume controls, themes, backups, and GitHub update checking are preserved.",
+  "publishedAt": "2026-11-18T14:24:13Z",
   "minimumSupportedVersion": "1.1.0"
 }
