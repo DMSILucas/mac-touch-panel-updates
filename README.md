@@ -4,7 +4,7 @@ This public repository hosts the GitHub Releases and update feed for **Mac Touch
 
 ## Live update feed
 
-**Status: Active** — latest published release: **v1.4.0**.
+**Status: Active** — latest published release: **v1.5.0**.
 
 Feed URL for **Mac Touch Panel → Updater Settings…**:
 
@@ -14,14 +14,14 @@ https://raw.githubusercontent.com/DMSILucas/mac-touch-panel-updates/main/appcast
 
 Published releases: https://github.com/DMSILucas/mac-touch-panel-updates/releases
 
-The installed app reads the JSON feed, compares the available version with the installed version, displays release notes when an update is newer, and opens its DMG download URL in the default browser. It does **not** install updates without user action.
+The installed app reads the JSON feed, compares the available version with the installed version, displays release notes when an update is newer, and downloads the DMG inside the app, checks its SHA-256 digest when present, and offers guided manual installation. It does **not** replace itself without user action.
 
 ## How to publish future releases
 
 1. Build and test the new version on macOS with `Build Mac App.command`.
 2. Create a GitHub Release tagged `vX.Y.Z` and attach the matching `MacTouchPanel-X.Y.Z.dmg`.
 3. Publish the release and confirm its asset appears on GitHub.
-4. Update `appcast.json` using the real release asset's `browser_download_url`, version, notes, and publication date.
+4. Update `appcast.json` using the real release asset's `browser_download_url`, version, notes, publication date, SHA-256 digest (without the `sha256:` prefix), and size in bytes.
 5. Test **Check for Updates…** on the installed app.
 
 Only publish a feed entry after the matching DMG is uploaded successfully. Keep this repository public so the app can read its feed without GitHub authentication.
