@@ -1,9 +1,9 @@
 {
-  "version": "1.6.0",
-  "downloadURL": "https://github.com/DMSILucas/mac-touch-panel-updates/releases/download/v1.6.0/MacTouchPanel-1.6.0.dmg",
-  "releaseNotes": "Mac Touch Panel v1.6.0 adds Multi-Action Buttons supporting up to 16 ordered steps per button, including website opening, app launching, system volume control, page navigation, browser visibility, and configurable waits. Steps can be reordered or cancelled, with optional stop-on-error behavior. Existing layouts, backups, website favicons, YouTube Music playback, and guided updates remain compatible.",
-  "publishedAt": "2026-11-18T16:15:26Z",
+  "version": "1.7.1",
+  "downloadURL": "https://github.com/DMSILucas/mac-touch-panel-updates/releases/download/v1.7.1/MacTouchPanel-1.7.1.dmg",
+  "releaseNotes": "Mac Touch Panel v1.7.1 adds drag-and-drop button rearranging in the editor, with automatic position saving and preservation of button actions and appearance. Also fixes black-screen issues after macOS sleep or external-display wake by automatically refreshing the panel display; includes a manual Refresh Touch Panel Display command. Existing Multi-Action Buttons, website icons, browser, and guided updates remain supported.",
+  "publishedAt": "2026-11-19T16:32:39Z",
   "minimumSupportedVersion": "1.1.0",
-  "sha256": "3ac8293e06dac4b0e3b605a733001e1304e1666f292f0b1f091f16736463dc88",
-  "fileSize": 1963681
+  "sha256": "56c27e9910fcea85594c83ae8e46e740b9b57d52c9d367f8496d6a0066b1ad0d",
+  "fileSize": 2009674
 }
